@@ -1,14 +1,4 @@
-create table atividade_projeto (
-	cod_projeto int,
-	cod_atividade int,
-	cod_responsavel int,
-	primary key (cod_projeto, cod_atividade),
-	FOREIGN KEY (cod_projeto) REFERENCES projeto(codigo),
-	FOREIGN KEY (cod_atividade) REFERENCES atividade(codigo),
-	FOREIGN KEY (cod_responsavel) REFERENCES funcionario(codigo)
-)
-
-create table atividade (
+ create table atividade (
 	codigo int primary key,
 	nome varchar(50),
 	descricao varchar(50),
