@@ -13,3 +13,4 @@
 - **Arquivos**:
   - `tarefa01-create.sql` - Estrutura do banco de dados
   - `tarefa01-inserts.sql` - Dados iniciais para teste
+  - [Exercicios Resolvidos](https://github.com/Joyce8900/Projeto-e-Administra-o-de-Banco-de-Dados/tree/main/tarefas/t01)
